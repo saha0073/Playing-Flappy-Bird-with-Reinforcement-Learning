@@ -13,13 +13,13 @@ This repo contains a wide range of custom functions & UI code for real-time dete
 * Libraries: ML-Agents Release 10, ML-Agents Extensions Release 10
 * Unity tools: Ray Perception Sensor 3D, UI, Prefab, GameManager, Sprites, etc
 
-```
-//## A demo of the detection & analysis of objects on conveyor belt!
-//<p align="center"><img src="https://github.com/saha0073/Yolov4-Object-Detection-and-Custom-UI/blob/main/saved_detections/pizza_radmaker1.gif" //style="width:80%"\></p>
-```
+
+## A demo of the detection & analysis of objects on conveyor belt!
+<p align="center"><img src="https://github.com/saha0073/Yolov4-Object-Detection-and-Custom-UI/blob/main/saved_detections/pizza_radmaker1.gif" style="width:80%"\></p>
+
 
 ## Getting Started
-### Run the Unity application
+### To Run the Unity application
 * Clone this repo, and open the project in Unity. Here I used Unity 20.3.
 * Go into the package manager and please make sure the project have ML-Agents Release 10, and Input System 1.1.3-preview  
 * Now open the SampleScene_AgentSetup, and hit play. The trained model should play the Flappy Bird game
