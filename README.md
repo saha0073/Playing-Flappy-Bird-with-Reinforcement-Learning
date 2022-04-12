@@ -13,8 +13,10 @@ This repo contains a wide range of custom functions & UI code for real-time dete
 * Libraries: ML-Agents Release 10, ML-Agents Extensions Release 10
 * Unity tools: Ray Perception Sensor 3D, UI, Prefab, GameManager, Sprites, etc
 
+```
 //## A demo of the detection & analysis of objects on conveyor belt!
 //<p align="center"><img src="https://github.com/saha0073/Yolov4-Object-Detection-and-Custom-UI/blob/main/saved_detections/pizza_radmaker1.gif" //style="width:80%"\></p>
+```
 
 ## Getting Started
 ### Run the Unity application
