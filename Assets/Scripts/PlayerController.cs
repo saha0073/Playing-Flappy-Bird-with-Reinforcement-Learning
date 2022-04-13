@@ -8,7 +8,7 @@ using UnityEngine;
 public class PlayerController : Agent
 {
     Rigidbody2D playerBody;
-    public float forceValue = 0f; //was 100f //initial gravity .2f
+    private float forceValue = 0.2f; //last time 0.2f, trained with 10.0f, was 100f //initial gravity .2f
     private int score = 0;
     public event Action OnReset;
     private Vector3 startingPosition;
@@ -30,7 +30,7 @@ public class PlayerController : Agent
     public override void OnActionReceived(float[] vectorAction)
     {
         if (Mathf.FloorToInt(vectorAction[0]) == 1) { 
-        playerBody.AddForce(Vector3.up * .2f);         //during training it was 0.1f
+        playerBody.AddForce(Vector3.up * forceValue);         //during training it was 0.1f
             Debug.Log(" vectoraction " + vectorAction[0]);
         }
         else { 
@@ -53,14 +53,7 @@ public class PlayerController : Agent
             EndEpisode();
             //transform.position = new Vector3(transform.position.x, 0, transform.position.z);
         }
-        /*
-        if (transform.position.x < -3.0f)
-        {
-            //GameManager.isPlaying = false;
-
-            AddReward(-1.0f);
-            EndEpisode();
-        }*/
+        
         RequestDecision();
     }
     
@@ -94,7 +87,7 @@ public class PlayerController : Agent
 
         if(Input.GetMouseButtonDown(0))
         {
-            playerBody.AddForce(Vector3.up * 10f);
+            playerBody.AddForce(Vector3.up * forceValue);
         }
         if(transform.position.y>1.25f || transform.position.y < -1.25f)
         {

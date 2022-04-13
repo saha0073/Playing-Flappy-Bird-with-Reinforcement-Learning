@@ -8,6 +8,7 @@
     "com.unity.inputsystem": "1.1.0-preview.3",
     "com.unity.ml-agents": "file:C:/Users/Manivannan2/projects/unity_projects/ml-agents-release_10/com.unity.ml-agents",
     "com.unity.ml-agents.extensions": "file:C:/Users/Manivannan2/projects/unity_projects/ml-agents-release_10/com.unity.ml-agents.extensions",
+    "com.unity.recorder": "2.5.7",
     "com.unity.test-framework": "1.1.29",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",

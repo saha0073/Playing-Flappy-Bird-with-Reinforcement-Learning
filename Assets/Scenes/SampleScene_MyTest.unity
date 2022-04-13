@@ -276,27 +276,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 275807296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19bc2f2d30ffda448945b9b94055a468, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c90ad91f56124845806d8ba0ecb3a48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PolicyFactory: {fileID: 0}
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  m_Reward: 0
-  m_CumulativeReward: 0
-  m_RequestAction: 0
-  m_RequestDecision: 0
-  m_StepCount: 0
-  m_CompletedEpisodes: 0
-  m_EpisodeId: 0
-  m_Initialized: 0
-  m_LegacyActionCache: []
-  playerBody: {fileID: 0}
   forceValue: 0
-  score: 0
-  startingPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &275807298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275807296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 1
+    NumStackedVectorObservations: 1
+    VectorActionSize: 01000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 0
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: My Behavior
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
 --- !u!1 &280604682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1275,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2503402140550256787, guid: 2db8a240d8753ca46a85ab9eca1cbc8a, type: 3}
+    - {fileID: 2503402140550256780, guid: 2db8a240d8753ca46a85ab9eca1cbc8a, type: 3}
+    - {fileID: 2503402140550256781, guid: 2db8a240d8753ca46a85ab9eca1cbc8a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2db8a240d8753ca46a85ab9eca1cbc8a, type: 3}
 --- !u!1 &1988408109
 GameObject:
