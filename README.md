@@ -29,6 +29,7 @@ This repo contains Flappy Bird game project in which a neural network has been t
 * If the bird hits the upper and lower obstacle the agent gets a -ve reward of 1.0f.
 * If the bird passes within the gap between the upper & lower obstacles it gets a +ve reward of 0.5f.
 * If the bird goes up above the upper obstacle or comes down below the lower obstacle the agent again gets a -ve reward of 1.0f.
+
 The performance of network can be further improved with a few modifications, such as adjusting the Raycaster, tuning the input variables.
 
 If you have any questions please feel free to connect with me on [Linkedin](https://www.linkedin.com/in/subhodip-saha-li/). Happy Learning!
