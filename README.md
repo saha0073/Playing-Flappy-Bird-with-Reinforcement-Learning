@@ -2,7 +2,7 @@
 
 Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity
 
-![title-pic](https://github.com/saha0073/Flappy-Bird-Unity/blob/main/Capture.PNG)
+![title-pic](https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Capture_211.PNG)
 
 This repo contains a wide range of custom functions & UI code for real-time detection & analysis of objects using YOLOv4. The UI can take a video (or CCTV streaming) as input, and will stream the output object detection in UI, along with time series count. Ready for deployment in the GPU servers for real-time custom object detection.
 
@@ -15,7 +15,7 @@ This repo contains a wide range of custom functions & UI code for real-time dete
 
 
 ## A demo of the detection & analysis of objects on conveyor belt!
-<p align="center"><img src="https://github.com/saha0073/Yolov4-Object-Detection-and-Custom-UI/blob/main/saved_detections/pizza_radmaker1.gif" style="width:80%"\></p>
+<p align="center"><img src="https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Recordings/ezgif.com-gif-maker.gif" style="width:80%"\></p>
 
 
 ## Getting Started
