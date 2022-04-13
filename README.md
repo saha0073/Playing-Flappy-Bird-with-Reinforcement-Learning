@@ -4,28 +4,29 @@ Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity
 
 ![title-pic](https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Capture_211.PNG)
 
-This repo contains Flappy Bird game in which a neural network has been trained to play Flappy Bird game itself using reinforcement learning (RL).  
+This repo contains Flappy Bird game project in which a neural network has been trained to play Flappy Bird game by itself using reinforcement learning (RL). Unity ML-Agent package has been used to implement the reinforcement cycle, give rewards based on the actions and teach the neural network to play the game. The trained neural network was able to attain a high score of 211 in the Flappy Bird game, and it can be further improved with a few modifications.     
 
 ## Techniques Used
 * GameEngine: Unity3D 20.3
 * Modeling Techniques: Reinforcement Learning, Machine Learning
 * Tech Stack: C#
-* Libraries: ML-Agents Release 10, ML-Agents Extensions Release 10
+* Packages: ML-Agents Release 10, ML-Agents Extensions Release 10
 * Unity tools: Ray Perception Sensor 3D, UI, Prefab, GameManager, Sprites, etc
 
 
-## A demo of playing Flappy Bird with RL!
-* Several demo of game view are also available in the `./Recordings` folder
+## Demo of playing Flappy Bird with RL!
+* The`./Recordings` folder contains several recordings during the game play. 
 <p align="center"><img src="https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Recordings/ezgif.com-gif-maker.gif" style="width:80%"\></p>
 
 
+## To Run the Unity application
+* Clone this repo, and open the project in Unity. Here Unity 20.3 has been used.
+* Go into the package manager and please make sure the project have ML-Agents Release 10, and Input System 1.1.0-preview.3. 
+* Now open the SampleScene_AgentSetup from the Scenes folder, please check that `Flappy_11-04 (NN Model)` is loaded in the Behaviour Parameters section of the Environment/Player gameobject. Now hit play and the trained model should play the Flappy Bird game.
 
+If you have any questions please feel free to connect with me on [Linkedin](https://www.linkedin.com/in/subhodip-saha-li/)
 
-## Getting Started
-### To Run the Unity application
-* Clone this repo, and open the project in Unity. Here I used Unity 20.3.
-* Go into the package manager and please make sure the project have ML-Agents Release 10, and Input System 1.1.0-preview.3  
-* Now open the SampleScene_AgentSetup, and hit play. The trained model should play the Flappy Bird game
+Happy Learning!
 
 
 
