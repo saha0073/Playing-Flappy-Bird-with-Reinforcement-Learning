@@ -21,7 +21,7 @@ This repo contains a wide range of custom functions & UI code for real-time dete
 ## Getting Started
 ### To Run the Unity application
 * Clone this repo, and open the project in Unity. Here I used Unity 20.3.
-* Go into the package manager and please make sure the project have ML-Agents Release 10, and Input System 1.1.3-preview  
+* Go into the package manager and please make sure the project have ML-Agents Release 10, and Input System 1.1.0-preview.3  
 * Now open the SampleScene_AgentSetup, and hit play. The trained model should play the Flappy Bird game
 
 
