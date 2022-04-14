@@ -15,7 +15,7 @@ This repo contains Flappy Bird game project in which a neural network has been t
 
 
 ## Demo of playing Flappy Bird with RL!
-* The`./Recordings` folder contains several recordings during the game play. 
+* The`./Recordings` folder contains several recordings during the game play, like as shown below. 
 <p align="center"><img src="https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Recordings/ezgif.com-gif-maker.gif" style="width:80%"\></p>
 
 
