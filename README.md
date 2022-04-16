@@ -21,8 +21,9 @@ This repo contains Flappy Bird game project in which a neural network has been t
 
 ## To Run the Unity application
 * Clone this repo, and open the project in Unity. Here Unity 20.3 has been used.
-* Please make sure the project have ML-Agents Release 10 (1.6.0-preview), and Input System 1.1.0-preview.3 within the package manager. In case ML-Agents don't function correctly you can follow this nice article by [T Suzuki](https://dev.to/tsuz/run-unity-ml-agents-examples-on-mac-52p6).
-* Now open the SampleScene_AgentSetup from the Scenes folder, please check that `Flappy_11-04 (NN Model)` is loaded in the Behaviour Parameters section of the Environment/Player gameobject. Now hit play and the trained model should play the Flappy Bird game.
+* Please make sure the project have ML-Agents Release 10 (1.6.0-preview), and Input System 1.1.0-preview.3 within the package manager. In case ML-Agents don't function correctly you can follow this nice article by [T Suzuki](https://dev.to/tsuz/run-unity-ml-agents-examples-on-mac-52p6) to import ML-Agents release 10.
+* Now open the SampleScene_AgentSetup from the Scenes folder, please check that `Flappy_11-04 (NN Model)` is loaded in the Behaviour Parameters section of the Environment/Player gameobject. The `Flappy_11-04 (NN Model)` is located within the `\Assets` folder. 
+* Now hit play and the trained model should play the Flappy Bird game.
 
 
 ## The logic for adding rewards during the training
