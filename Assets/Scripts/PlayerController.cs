@@ -8,7 +8,7 @@ using UnityEngine;
 public class PlayerController : Agent
 {
     Rigidbody2D playerBody;
-    private float forceValue = 0.2f; //last time 0.2f, trained with 10.0f, was 100f //initial gravity .2f
+    private float forceValue = 0.2f; // in earlier training was 10.0f, earlier was 100f //earlier gravity 0.2f
     private int score = 0;
     public event Action OnReset;
     private Vector3 startingPosition;

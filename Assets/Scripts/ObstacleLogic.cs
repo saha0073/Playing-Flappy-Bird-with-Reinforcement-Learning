@@ -8,7 +8,7 @@ public class ObstacleLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(transform.position.x, Random.Range(-1.4f, -1.0f), transform.position.z);
+        transform.position = new Vector3(transform.position.x, Random.Range(-1.5f, -0.9f), transform.position.z);
         //transform.position = new Vector3(transform.position.x, -1.2f, transform.position.z);
         rewarded = false;
 
