@@ -1,6 +1,6 @@
-# Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity
+# Playing-Flappy-Bird-with-Reinforcement-Learning
 
-Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity
+Playing-Flappy-Bird-with-Reinforcement-Learning
 
 ![title-pic](https://github.com/saha0073/Playing-Flappy-Bird-with-Reinforcement-Learning-in-Unity/blob/main/Capture_211.PNG)
 
